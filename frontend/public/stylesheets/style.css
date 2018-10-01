@@ -1,0 +1,413 @@
+
+body
+{
+  margin: 0 auto;
+  padding: 0;
+  background-color: #8CABAB;
+  background-image: url('../images/BgTexture.jpg');
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: top left;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+q {
+  font-style: italic;
+}
+
+#myMain
+{
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.mySheet
+{
+  position:relative;
+  z-index:0;
+  margin:0 auto;
+  width: 900px;
+  min-width:35px;
+  min-height:35px;
+}
+
+.myBody
+{
+  position: relative;
+  z-index: 1;
+  padding: 13px;
+  color: darkblue;
+  font-family: Arial, serif;
+  font-size: 16px;
+}
+
+div.myHeader
+{
+  margin:  auto;
+  position: relative;
+  z-index:0;
+  width: 880px;
+  height: 165px;
+}
+
+div.mySubHeader
+{
+  margin:  10px;
+  position: relative;
+}
+
+div.myHeader-jpeg
+{
+  position: absolute;
+  z-index:-1;
+  top: 0;
+  left: 0;
+  width: 880px;
+  height: 225px;
+  background-image: url('../images/Header.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#mainHeading
+{
+  margin: 5px;
+  padding: 10px;
+}
+
+.myNav
+{
+  /*position: relative;*/
+  height: 30px;
+  z-index: 100;
+}
+
+
+.myMenu, .myMenu ul
+{
+  margin: 3px;
+  padding: 3px;
+  border: 3px;
+  display: block;
+}
+
+.myMenu li
+{
+  margin: 3px;
+  padding: 3px;
+  border: 3px;
+  display: block;
+  float: left;
+  position: relative;
+  z-index: 5;
+  background-color: lightseagreen;
+}
+
+.myMenu a
+{
+  margin: 3px;
+  padding: 3px;
+  border: 3px;
+  display: block;
+  float: right;
+  position: relative;
+  z-index: 5;
+  color: darkblue;
+  background-color: lightseagreen;
+}
+
+.myMenu a {
+  text-decoration: none;
+}
+
+.myMenu a:hover {
+  color: white;
+}
+
+.myContentLayout
+{
+  position: relative;
+  margin: 3px;
+  padding: 3px;
+  border: 3px;
+  float: left;
+  overflow: hidden;
+  width: 863px;
+  background-color: lightseagreen;
+}
+
+.myContent
+{
+  position: relative;
+  margin: 3px;
+  padding: 3px;
+  border: 3px;
+  float: left;
+  overflow: hidden;
+  text-align: left;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.myFooter
+{
+  position:relative;
+  z-index:0;
+  overflow:hidden;
+  width: 880px;
+  height: 30px;
+  margin: 5px auto 0 auto;
+}
+
+.myFooter .myFooter-background
+{
+  position:absolute;
+  z-index:-1;
+  background-repeat:no-repeat;
+  background-image: url('../images/Footer.png');
+  width: 880px;
+  height: 150px;
+  bottom:0;
+  left:0;
+}
+
+.myFooter .myFooter-text p
+{
+  margin: 5px;
+}
+
+.myFooter .myFooter-text
+{
+  font-size: 11px;
+  text-align: center;
+}
+
+section {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+#art1 {
+  float: left;
+  border: 1px solid DarkGray;
+  width: 32.4%;
+  height: 600px;
+  display: inline-block;
+  background-color: lightcyan;
+}
+
+#art2 {
+  float: left;
+  border: 1px solid DarkGray;
+  width: 32.4%;
+  height: 600px;
+  display: inline-block;
+  background-color: lightblue;
+}
+
+#art3 {
+  float: left;
+  border: 1px solid DarkGray;
+  width: 32.4%;
+  height: 600px;
+  display: inline-block;
+  background-color: aliceblue;
+}
+
+.teamPics {
+  padding: 1px;
+  border: 1px solid DarkGray;
+  width: 70%;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: grayscale(50%);
+}
+
+#teamPic1 {
+  background-image: url('../images/CdV10.jpg');
+}
+
+#teamPic2 {
+  background-image: url('../images/Lourens-Boshoff1.jpg');
+}
+
+#teamPic3 {
+  background-image: url('../images/Lydia-Badenhorst1.jpg');
+}
+
+div.myCustomHeader1
+{
+  font-size: 14px;
+}
+
+div.myCustomText1
+{
+  font-size: 12px;
+}
+
+.itemPics {
+  padding: 1px;
+  border: 1px solid DarkGray;
+  width: 100%;
+  height: 200px;
+}
+
+.itemPics:hover {
+  transform: scale(1.5);
+}
+
+.cartIcon {
+  padding: 1px;
+  border: 1px solid DarkGray;
+  width: 20px;
+  height: 20px;
+}
+
+.cartIconSmall {
+  padding: 1px;
+  width: 13px;
+  height: 13px;
+}
+
+.myDivWithBorder {
+  padding: 5px;
+  margin: 5px;
+  border: 3px solid DarkGray;
+}
+
+
+@keyframes myTableColorChangeAnimation {
+  from {background-color: lightblue;}
+  to {background-color: yellow;}
+}
+
+.myLogin {
+  display: inline-block;
+  text-align: left;
+}
+
+.loginTable {
+  position: center;
+  padding: 5px;
+  border: 5px solid DarkGray;
+  font-weight: bold;
+  background-color: lightblue;
+  animation-name: myTableColorChangeAnimation;
+  animation-duration: 10s;
+}
+
+.detailTable {
+  padding: 3px;
+  border: 2px solid DarkGray;
+  font-weight: bold;
+  background-color: lightblue;
+  text-align: left;
+}
+
+.myButton {
+  float: left;
+  padding: 3px;
+  margin: 3px;
+  background-color: lightblue;
+  border: 2px solid lightcyan;
+  border-radius: 5px;
+}
+
+#mySearchInput {
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myItemsUL {
+  list-style-type: none;
+  padding: 3px;
+  margin: 3px;
+}
+
+#myItemsUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: 3px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myItemsUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+.items li {
+  width: 200px;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.myAmount{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.myMenuTask, .myMenuTask ul
+{
+  margin: 3px;
+  padding: 3px;
+  border: 3px;
+  display: block;
+}
+
+.myMenuTask li
+{
+  margin: 3px;
+  padding: 3px;
+  border: 3px;
+  display: block;
+  float: left;
+  position: relative;
+  z-index: 5;
+  background-color: lightgreen;
+}
+
+.myMenuTask a
+{
+  margin: 3px;
+  padding: 3px;
+  border: 3px;
+  display: block;
+  float: right;
+  position: relative;
+  z-index: 5;
+  color: darkblue;
+  background-color: lightgreen;
+}
+
+.myMenuTask a {
+  text-decoration: none;
+}
+
+.myMenuTask a:hover {
+  color: white;
+}
